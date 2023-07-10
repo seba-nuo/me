@@ -1,9 +1,27 @@
 ---
-import Hero from '../components/Hero.astro';
-import Layout from '../layouts/Layout.astro';
-// import Card from '../components/Card.astro';
+import Hero from "../components/Hero.astro";
+import Nav from "./Nav.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Sebastián Núñez">
-	<Hero/>
+	<Nav />
+	<Hero />
+	<h2>
+		Soy desarrollador Fullstack con experiencia en frontend principalmente en
+		React, aunque ahora último estoy usando Angular en mi trabajo y de backend
+		usamos Node y bases de datos relacionales y no relacionales.
+	</h2>
+	<p>
+		Tengo dos años trabajando en equipos de desarrolladores usando metodologías
+		ágiles como Scrum y en modalidad tanto presencial como remoto.
+	</p>
+	<p>
+		Uno de mis logros favoritos fue implementar una funcionalidad de monitoreo
+		de hardware en tiempo real, los equipos que se monitorean cuentan con un
+		sistema de alarmas que cuando hay fallas avisa y lo almacena la información
+		en una base de datos, lo que hice fue desarrollar las consultas adecuadas
+		para mostrar la información relevante de los equipos y que esta información
+		sea agradable a la vista  además de ser en tiempo real.
+	</p>
 </Layout>
