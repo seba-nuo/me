@@ -7,11 +7,10 @@ export interface Props {
 const { href, title } = Astro.props;
 ---
 
-<li class="group flex mx-2 px-3 hover:underline hover:underline-offset-8 text-cyan-100 hover:text-cyan-300 transition-colors duration-300">
+<li class="flex hover:underline hover:underline-offset-8 text-cyan-100 hover:text-cyan-300 transition-colors duration-300">
 	<a href={href}>
-		<h2>
+		<h2 class="text-sm">
 			{title}
-			<span class="invisible group-hover:visible">&rarr;</span>
 		</h2>
 	</a>
 </li>
