@@ -3,14 +3,13 @@ import logo from "../images/logo.svg";
 import NavItem from "../components/NavItem.astro";
 ---
 
-<nav class="px-20 py-10 flex">
-  <ul class="flex items-center justify-between w-full">
+<nav class="px-4 py-5 flex">
+  <ul class="flex items-center justify-end w-full">
     <li>
-      <a href="#"><img src={logo} alt="logo" width="30" height="30" /></a>
+      <a href="#" class="flex w-[20px]"><img src={logo} alt="logo"/></a>
     </li>
     <li class="flex-grow"></li>
     <NavItem title="Acerca de mi" href="#" />
     <NavItem title="Proyectos" href="#" />
-    <NavItem title="Contacto" href="#" />
   </ul>
 </nav>
